@@ -1,1 +1,1 @@
-Lista def execícios do laço faça enquanto 
+Lista de exercícios do laço faça enquanto 
