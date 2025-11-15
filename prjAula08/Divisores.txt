@@ -1,0 +1,31 @@
+import java.util.Scanner; 
+public class Divisores {
+	public static void main ( String[] args) {
+		
+		Scanner in = new Scanner (System.in); 
+		final int TAM = 10; 
+		int i, a[] , b; 
+
+		a= new int [TAM]; 
+		System.out.println ("Digite 10 valores inteiros"); 
+
+		for (i=0; i<TAM; i++) {
+			a[i] = in.nextInt();
+		}
+
+		for (i=0; i<TAM; i++) { 
+			System.out.println (a[i]);
+			System.out.print ("Divisores: ");
+
+			for (b=1; b<=a[i]; b++){
+				if (a[i] % b == 0) {
+					System.out.print (b + " "); 
+				}
+			} 
+		}
+		
+		
+	}
+
+	}
+}

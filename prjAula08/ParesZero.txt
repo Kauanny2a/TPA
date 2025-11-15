@@ -1,0 +1,29 @@
+import java.utl.Scanner; 
+public class ParesZero {
+	public static void main (String[] args) {
+	
+	Scanner in = new Scanner (System.in); 
+	final int TAM = 10; 
+	int i, a, b;
+	
+	a[]= new int [TAM]; 
+	System.out.println ("Digite 10 valores inteiros: "); 
+	
+	for (i=0; i<TAM; i++) {
+		a[i] = in.nextInt();
+	}
+
+	for ( i=0; i<TAM; i++) {
+		System.out.println ("a[" +i+ "] = " + a[i]);
+		
+		for (b=0; b<=TAM; b++) {
+			if (b% 2 == 0) {
+				System.out.print (b + " ");
+			}
+		}
+		System.out.println();
+	}
+	
+
+	}
+}
