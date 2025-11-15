@@ -1,0 +1,30 @@
+import java.util.Scanner; 
+  public class Imc {
+  public static void main (String [] args) { 
+
+     Scanner in = new Scanner (System.in); 
+     double p, h, imc; 
+
+     System.out.println (" Digite o seu peso:"); 
+     p = in.nextDouble (); 
+     System.out.println ("Digite sua altura:"); 
+     h = in.nextDouble (); 
+ 
+     imc = p/(h*h);
+     System.out.println ("O valor do seu IMC é:" + imc);
+     if (imc<18.5) { // para valores com casas decimais, se separa utilizando o ponto final (.) 
+        System.out.println ("Excesso de magreza");
+     } else if (imc<25) {
+          System.out.println ("Peso normal");
+     } else if (imc<30) {
+            System.out.println ("Excesso de peso"); 
+     } else if (imc<35) {
+             System.out.println ("Obesidade (grau 1)"); 
+     } else if (imc<40) {
+             System.out.println ("Obesidade (grau 2)");
+     }else {
+             System.out.println ("Obesidade (grau 3)");
+     }
+
+  }
+}
