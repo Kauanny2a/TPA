@@ -1,0 +1,39 @@
+package prjListaSe;
+
+import java.util.Scanner;
+
+public class Media {
+	public static void main(String [] args){
+	       
+        Scanner in= new Scanner (System.in);
+        double n1, n2, m1, m2, nExame;
+        
+        System.out.println ("Digite a 1° nota"); 
+        n1= in.nextDouble (); 
+        System.out.println ("Digite a 2° nota");
+        n2= in.nextDouble ();
+        
+        m1 = (n1+n2)/2;
+
+        System.out.println (" A média é:" + m1); 
+        if (m1<3) {
+           System.out.println ("Reprovado");
+        } else if (m1>=6) {
+            System.out.println ("Aprovado");
+        } else {
+            System.out.println (" Em exame");
+        }
+        
+        System.out.println ("Digite a nota do exame") ;
+        nExame = in.nextDouble (); 
+
+        m2 = (m1 + nExame) / 2;
+        
+        System.out.println ("A nova média é:" + m2);
+        if (m2>=6){
+           System.out.println ("Aprovado");
+        } else {
+           System.out.println ("Reprovado");
+        }
+	}
+}
