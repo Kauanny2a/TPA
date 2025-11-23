@@ -1,0 +1,26 @@
+package prjAula04;
+import java.util.Scanner; 
+public class Combustivel {
+
+	 public static void main (String [] args) { 
+	 
+	    Scanner in = new Scanner (System.in);
+	    double d, l, gastoM; 
+
+	    System.out.println ("Distância percorrida:");
+	    d = in.nextDouble (); 
+	    System.out.println (" Capacidade do tanque de combustivel (L):");
+	    l = in.nextDouble ();
+	 
+	    gastoM = d/l; 
+	    System.out.println ( "O gasto médio foi de:" + gastoM); 
+
+	    if (gastoM>=10) {
+	        System.out.println ("Econômico"); 
+	    } else {
+	        System.out.println ("Não econômico"); 
+	    } 
+	  
+	 }
+	 
+}
