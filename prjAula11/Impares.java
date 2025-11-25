@@ -18,24 +18,22 @@ public class Impares {
 			a[i] = in.nextInt();
 		}
 		
-	for (i =0; i<TAM;i++) {
-		
+	    for (i =0; i<TAM;i++) {
+		    if (a[i] %2 == 0){ 
+			   b[i] = 1;	
+		    } else {
+			   b[i] =0;
+		    }
+	     }
 	
-		if (a[i] %2 == 0){ 
-			b[i] = 1;	
-		} else {
-			b[i] =0;
-		}
-	}
-	
-	System.out.println("Vetor A:");
-		for (i=0; i<TAM; i++) {
-			System.out.print(a[i] + " ");
-		}
-		System.out.println("\n Vetor B:");
-		for (i=0; i<TAM; i++) {
-			System.out.print(b[i] + " ");
-	}
-	
+	     System.out.println("Vetor A:");
+		   for (i=0; i<TAM; i++) {
+			   System.out.print(a[i] + " ");
+		   }
+		 System.out.println("\n Vetor B:");
+		   for (i=0; i<TAM; i++) {
+			   System.out.print(b[i] + " ");
+	      }
 	}
 }
+
