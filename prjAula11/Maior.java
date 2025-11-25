@@ -23,28 +23,29 @@ public class Maior {
 			b[i] = in.nextInt();
 		}
 		
-	for (i =0; i<TAM;i++) {
-		if (a[i] > b[i]){ 
-			c[i] = 1;	
-		} else if (a[i] < b[i])  {
-			c[i] = -1;
-		} else {
-			c[i] = 0;
+	   for (i =0; i<TAM;i++) {
+		   if (a[i] > b[i]){ 
+			  c[i] = 1;	
+		   } else if (a[i] < b[i])  {
+			  c[i] = -1;
+		   } else {
+			  c[i] = 0;
 		}
 	}
 	
-	System.out.println("Vetor A:");
+	    System.out.println("Vetor A:");
 		for (i=0; i<TAM; i++) {
 			System.out.print(a[i] + " ");
 		}
 		System.out.println("\n Vetor B:");
 		for (i=0; i<TAM; i++) {
 			System.out.print(b[i] + " ");
-	}
+	    }
 		System.out.println("\n Vetor C:");
 		for (i=0; i<TAM; i++) {
 			System.out.print(c[i] + " ");
-	}
+	    }
 	}
 }
+
 
