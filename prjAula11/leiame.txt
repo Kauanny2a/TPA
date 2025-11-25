@@ -1,1 +1,14 @@
 Lista de exercício sobre Vetores. 
+
+Exercicios realizados: 
+
+1. ParesImpares
+2. Tabuada
+3. Primos
+4. Pares 
+5. Divisores
+9. Intersecao
+11. Pesquisa
+13. Polindromo
+14. Impares
+15. Maior
