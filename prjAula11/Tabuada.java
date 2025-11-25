@@ -9,17 +9,18 @@ public class Tabuada {
 		
 		a = new int [TAM]; 
 		
-		System.out.println("Digite 5 números; ");
+		System.out.println("Digite 5 nÃºmeros; ");
 		 
 		for (i=0; i<TAM; i++) {
 			a[i] = in.nextInt();
 			
 			for (i=0; i<TAM; i++) {
-				System.out.println("A tabuada do número " + a[i] + " :");
+				System.out.println("A tabuada do nÃºmero " + a[i] + " :");
 			}
-				for (r=0; r<=10; r++) {
+			for (r=0; r<=10; r++) {
 			System.out.println( a[i] + "x" + r + "=" + (a[i] * r));
-		}
+	    	}
 
+	    }
 	}
-
+}
