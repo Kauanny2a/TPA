@@ -12,14 +12,13 @@ public class Pares {
 		n=0;
 		
 		for (i=0; i<TAM; i++) {
-			System.out.println("Digite o " + (i + 1) + " número:");
-            a[i] = in.nextInt();
-			
+			System.out.println("Digite o " + (i + 1) + " nÃºmero:");
+            a[i] = in.nextInt();	
 		}
 		
 		for ( i = 0; i < TAM; i++) {
-            System.out.println("\nNúmero do A[" + i + "] = " + a[i]);
-            System.out.println("Pares de 0 até " + a[i] + ": ");
+            System.out.println("\nNÃºmero do A[" + i + "] = " + a[i]);
+            System.out.println("Pares de 0 atÃ© " + a[i] + ": ");
 		
             for (n= 0; n <= a[i]; n++) {
                 if (n % 2 == 0) { 
@@ -29,3 +28,4 @@ public class Pares {
 		}
 	}
 }
+
