@@ -19,7 +19,7 @@ public class Primos {
 					 divisores = 0;
 						for (n=2; n<a[i];n++) {
 							if (a[i]%n==0) {
-								primo=0;
+								divisores++;
 							}
 						}
 						
@@ -35,4 +35,5 @@ public class Primos {
 
 
 	
+
 
