@@ -10,12 +10,12 @@ public class Primos {
 			a = new int [TAM];
 			primo=0;
 			
-			System.out.println("Digite um número: ");
+			System.out.println("Digite um nÃºmero: ");
 			
 				for (i=0; i<TAM; i++) {
 					a[i] = in.nextInt();
 					if (a[i]<=1) {
-						System.out.println("Não é um número primo");
+						System.out.println("NÃ£o Ã© um nÃºmero primo");
 					} else {
 						primo = 1; 
 						for (n=2; n<a[i];n++) {
@@ -25,13 +25,14 @@ public class Primos {
 						}
 						
 						if (primo == 1) {
-							System.out.println(a[i] + "é primo");
+							System.out.println(a[i] + "Ã© primo");
 						} else {
-							System.out.println(a[i] + "Não é primo");
+							System.out.println(a[i] + "NÃ£o Ã© primo");
 						}
 					
 			}
 
 		}
+
 
 	
