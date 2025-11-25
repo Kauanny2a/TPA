@@ -10,22 +10,19 @@ public class Polindromo {
 		
 		a = new int[TAM];
 		
-		System.out.println("Insira os números do vetor A: ");
-			for (i=0; i<TAM; i++) {
-				a[i] = in.nextInt();
+		System.out.println("Insira os nÃºmeros do vetor A: ");
+			
+		for (i=0; i<TAM; i++) {
+			a[i] = in.nextInt();
 			}
 		
-			
-				if (a[0] == a[9] && a[1] == a[8] && a[2] == a[7] && a[3] == a[6] && a[4]== a[5]) {
-					
-					System.out.println("Esse é um número palíndromo");
-					
-				} else {
-					System.out.println("Esse não é um número palíndromo");
-				}
-			
-	
+		if (a[0] == a[9] && a[1] == a[8] && a[2] == a[7] && a[3] == a[6] && a[4]== a[5]) {
+			System.out.println("Esse Ã© um nÃºmero palÃ­ndromo");
+		} else {
+			System.out.println("Esse nÃ£o Ã© um nÃºmero palÃ­ndromo");
+		}
 	}
 }
+
 
 
