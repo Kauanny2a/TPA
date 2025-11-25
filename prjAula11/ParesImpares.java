@@ -10,7 +10,7 @@ public class ParesImpares {
 	        int b[] = new int[TAM];
 	        int i, n = 0;
 
-	        System.out.println("Digite 20 números:");
+	        System.out.println("Digite 20 nÃºmeros:");
 	        for (i = 0; i < TAM; i++) {
 	            a[i] = in.nextInt();
 	        }
@@ -30,14 +30,10 @@ public class ParesImpares {
 	        }
 
 
-	        System.out.println("\nVetor B (pares primeiro, depois ímpares):");
+	        System.out.println("\nVetor B (pares primeiro, depois Ã­mpares):");
 	        for (i = 0; i < TAM; i++) {
 	            System.out.print(b[i] + " ");
 	        }
 	    }
 	}
-		
 
-	}
-
-}
